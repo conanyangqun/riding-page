@@ -11,20 +11,28 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Workouts Map',
-  siteUrl: 'https://ben29.xyz',
-  logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
-  description: 'Personal site and blog',
+  siteTitle: 'Riding Map',
+  siteUrl: '',
+  logo: 'https://avatars.githubusercontent.com/u/26806882?v=4',
+  description: '神骏的骑行数据',
   keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
   navLinks: [
     {
-      name: 'Blog',
-      url: 'https://ben29.xyz',
+      name: 'GitHub',
+      url: 'https://github.com/conanyangqun',
     },
     {
       name: 'About',
-      url: 'https://github.com/ben-29/workouts_page/blob/master/README-CN.md',
+      url: 'https://github.com/conanyangqun/riding-page/blob/master/README-CN.md',
     },
+    {
+      name: 'vercel站点',
+      url: 'https://riding-page-eight.vercel.app/',
+    },
+    {
+      name: 'cloudflare站点',
+      url: 'https://riding-page.pages.dev/',
+    }
   ],
 };
 
