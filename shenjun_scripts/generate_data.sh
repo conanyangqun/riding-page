@@ -19,11 +19,11 @@ python3 run_page/gen_svg.py \
     --type grid \
     --athlete "$YOUR_NAME" \
     --output assets/grid.svg \
-    --min-distance 10.0 \
+    --min-distance 1.0 \
     --special-color yellow \
     --special-color2 red \
-    --special-distance 20 \
-    --special-distance2 40 \
+    --special-distance 10 \
+    --special-distance2 20 \
     --use-localtime
 
 python3 run_page/gen_svg.py \
